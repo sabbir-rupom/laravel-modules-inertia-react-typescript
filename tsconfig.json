@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "allowJs": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    // "jsx": "react-jsx",
+    "jsx": "preserve",
+    "strict": true,
+    "isolatedModules": true,
+    // "target": "es6",
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "incremental": true,
+    "types": ["vite/client"],
+    "paths": {
+      "@/*": ["./resources/js/react/*"]
+    }
+  },
+  "include": [
+    "resources/js/react/**/*.ts",
+    "resources/js/react/**/*.tsx",
+    "resources/js/react/**/*.d.ts"
+  ]
+}
